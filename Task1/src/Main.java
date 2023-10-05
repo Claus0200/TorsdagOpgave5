@@ -11,10 +11,11 @@ public class Main {
         printCustomers(customers);
 
     }
-    public static void printCustomers(ArrayList customers) {
+    public static void printCustomers(ArrayList<Customer> customers) {
         for(Object customer : customers) {
             System.out.println(customer);
         }
     }
 
 }
+

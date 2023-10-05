@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Cafe {
-    ArrayList<String> coffeeMenu = new ArrayList<String>();
+    ArrayList<String> coffeeMenu = new ArrayList<>();
 
     public void loadMenuData() {
         File file = new File("coffees.txt");

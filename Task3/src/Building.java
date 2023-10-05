@@ -26,7 +26,7 @@ public class Building {
         return numberOfFloors;
     }
 
-    public boolean isOfficeBuilding() {
+    public boolean getIsOfficeBuilding() {
         return isOfficeBuilding;
     }
 }
