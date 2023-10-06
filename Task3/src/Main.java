@@ -15,6 +15,11 @@ public class Main {
         int lampsInBuilding = 0;
         for(int i = 0; i < building.getRooms().size(); i++) {
             int lampsInRoom = building.getRooms().get(i).getNumberOfLamps();
+
+            /*ArrayList<Room> rooms = building.getRooms();
+            Room room = rooms.get(i);
+            int lampsInRoom = room.getNumberOfLamps();*/
+
             lampsInBuilding += lampsInRoom;
         }
         return lampsInBuilding;
